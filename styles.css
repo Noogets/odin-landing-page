@@ -112,12 +112,23 @@ img.info-image {
 }
 .action {
   display: flex;
-  margin: 100px 200px;
+  margin: 100px 20%;
   background-color: #3882f6;
   border-radius: 7px;
+  padding: 40px 150px;
+  justify-content: space-between;
 }
-.action-text {
-  justify-self: start;
+/* .action-text {
+} */
+.action-title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.action-paragraph {
+  color: #f9faf8;
+  font-weight: 300;
+  font-size: 18px;
 }
 .action-button {
   border-radius: 7px;
@@ -125,6 +136,13 @@ img.info-image {
   padding: 6px 20px;
   background-color: #3882f6;
   border: 2px solid #e5e7eb;
-  align-self: center;
-  justify-self: end;
+  align-self: flex-end;
+}
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  color: #e5e7eb;
+  padding: 40px 100px;
+  justify-content: center;
+  align-content: center;
 }
